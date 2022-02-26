@@ -1,0 +1,15 @@
+
+[
+    {
+        "nombre":"Dashboard",
+        "ruta": "/dashboard"
+    },
+    {
+        "nombre":"Usuarios",
+        "ruta": "/dashboard/usuarios"
+    },
+    {
+        "nombre":"Reportes",
+        "ruta": "/dashboard/reportes"
+    }
+]

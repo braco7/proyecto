@@ -1,0 +1,19 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  display: flex;
+  /* The image used */
+  background-image: url("../../../assets/img/errorpage.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position-y: center;
+}

@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-head {
+  background-color: #064d35;
+}
+
+.mat-row:nth-child(2n + 1) {
+  background-color: #064d35;
+}
+.mat-row:not(:nth-child(2n + 1)) {
+  background-color: #068d86;
+}
+a {
+  cursor: pointer;
+  margin-left: 5px;
+}
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  background-color: rgb(26, 82, 73);
+}

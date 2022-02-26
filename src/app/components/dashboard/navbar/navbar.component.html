@@ -1,0 +1,11 @@
+<mat-toolbar>
+  <span>App Users</span>
+  <span class="example-spacer"></span>
+  <button mat-button *ngFor="let item of itemsDeMenu" [routerLink]="item.ruta">
+    {{ item.nombre }}
+  </button>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon" aria-label="Logout Icon">
+    <mat-icon routerLink="/">logout</mat-icon>
+  </button>
+</mat-toolbar>
